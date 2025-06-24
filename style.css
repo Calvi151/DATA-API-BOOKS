@@ -1,0 +1,68 @@
+body { font-family: Arial, sans-serif;
+            background-color: rgb(254, 113, 25);
+          }
+    #results { margin-top: 20px; }
+    .buku { margin-bottom: 10px; padding: 10px; border: 1px solid #ccc; }
+    .cari{
+        margin: 0 0 10px;
+        color: rgb(7, 18, 241);
+        text-align: center;
+        height: fit-content;
+        margin-bottom: 10px;
+        margin-left: 25%;
+        margin-right: 30%;
+        font-size: 30px;
+    }
+    .search{
+        background-color: blanchedalmond;
+        width: 30%;
+        text-align: center;
+        border: 2px solid black;
+        border-radius: 10px;
+        margin-right: 3px;
+        padding: 10px;
+    }
+
+    .bt{
+     text-align: center;
+    padding: 10px;
+    margin-left: 10px;
+    width: 5%;
+    border: 2px solid black;
+    background-color: rosybrown;
+    border-radius: 25px;
+    }
+    
+    .result{
+        width: 20%;
+        text-align: center;
+        padding: 5px;
+       background: linear-gradient(
+        100deg,
+       red 40%,
+       rgb(110, 5, 2) 60%
+       );
+      cursor: pointer;
+      border: 2px solid black;
+      border-radius: 10px;
+      background-size: cover;
+      height: max-content;
+      color: white;
+      font: bold 20px Arial, sans-serif;
+      font-size: small;
+      justify-content: center;
+      text-align: center;
+      margin-top: auto;
+      margin-left: 37%;
+      margin-right: 10px;
+      content: initial;
+      transform: translateY(0)scale(1);
+      transition: 0.3s ease-in-out;
+      box-shadow: 1px 1px 5px rgba(215, 230, 5, 0.3);
+    }
+
+    .search-c {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
